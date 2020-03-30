@@ -1,7 +1,7 @@
 {
   "name": "angular-contact-app",
   "version": "0.0.0",
-  "homepage": "https://hybridx.github.io/angular-contact-app/",
+  "homepage": "./",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
