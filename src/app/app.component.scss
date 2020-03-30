@@ -1,0 +1,6 @@
+.content {
+    display: flex;
+    router-outlet {
+        margin: 1.5rem;
+    }
+}

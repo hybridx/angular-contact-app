@@ -1,0 +1,7 @@
+<div class="panel">
+    <ul>
+        <li *ngFor="let panelLink of panelLinks;let i = index" [ngClass]="{'active': selectedIndex === i}" (click)="selectCurrentTab(i);">
+            <a [routerLink]="panelLink.link">{{ panelLink.title }}</a>
+        </li>
+    </ul>
+</div>
