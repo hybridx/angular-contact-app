@@ -1,7 +1,7 @@
 {
   "name": "notification-managment-spa",
   "version": "0.0.0",
-  "homepage": "./",
+  "homepage": "https://hybridx.github.io/angular-contact-app/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
