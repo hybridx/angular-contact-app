@@ -12,12 +12,12 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "opf",
+      "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/",
+            "outputPath": "dist/angular-contact-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -66,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "notification-managment-spa:build"
+            "browserTarget": "angular-contact-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "notification-managment-spa:build:production"
+              "browserTarget": "angular-contact-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "notification-managment-spa:build"
+            "browserTarget": "angular-contact-app:build"
           }
         },
         "test": {
@@ -114,15 +114,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "notification-managment-spa:serve"
+            "devServerTarget": "angular-contact-app:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "notification-managment-spa:serve:production"
+              "devServerTarget": "angular-contact-app:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "notification-managment-spa"
+  "defaultProject": "angular-contact-app"
 }
